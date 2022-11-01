@@ -1,0 +1,1258 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Sterownik silnika krokowego z regulacją obrotów"
+Date "2018-10-01"
+Rev ""
+Comp "Wincenty Skwarek"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sterownik-rescue:C C1
+U 1 1 5AE4BE6C
+P 800 4800
+F 0 "C1" H 825 4900 50  0000 L CNN
+F 1 "0.1uF" H 825 4700 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 838 4650 50  0001 C CNN
+F 3 "" H 800 4800 50  0001 C CNN
+	1    800  4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:Crystal Y1
+U 1 1 5AE4C27D
+P 4250 4800
+F 0 "Y1" H 4250 4950 50  0000 C CNN
+F 1 "Crystal" H 4250 4650 50  0000 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 4250 4800 50  0001 C CNN
+F 3 "" H 4250 4800 50  0001 C CNN
+	1    4250 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sterownik-rescue:C C4
+U 1 1 5AE9515A
+P 4650 4950
+F 0 "C4" H 4675 5050 50  0000 L CNN
+F 1 "22pF" H 4675 4850 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4688 4800 50  0001 C CNN
+F 3 "" H 4650 4950 50  0001 C CNN
+	1    4650 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sterownik-rescue:C C3
+U 1 1 5AE9549A
+P 4650 4650
+F 0 "C3" H 4675 4750 50  0000 L CNN
+F 1 "22pF" H 4675 4550 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4688 4500 50  0001 C CNN
+F 3 "" H 4650 4650 50  0001 C CNN
+	1    4650 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sterownik-rescue:Conn_01x05_Male J2
+U 1 1 5AE9E87A
+P 2050 3400
+F 0 "J2" H 2050 3700 50  0000 C CNN
+F 1 "Programator" H 2286 3021 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 2050 3400 50  0001 C CNN
+F 3 "" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L sterownik-rescue:C C2
+U 1 1 5AE9EE16
+P 4200 5500
+F 0 "C2" H 4225 5600 50  0000 L CNN
+F 1 "0.1uF" H 4225 5400 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 4238 5350 50  0001 C CNN
+F 3 "" H 4200 5500 50  0001 C CNN
+	1    4200 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L sterownik-rescue:R R5
+U 1 1 5AE9EF36
+P 3800 5250
+F 0 "R5" V 3880 5250 50  0000 C CNN
+F 1 "10k" V 3800 5250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3730 5250 50  0001 C CNN
+F 3 "" H 3800 5250 50  0001 C CNN
+	1    3800 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L sterownik-rescue:SW_DIP_x01 SW2
+U 1 1 5AEA018A
+P 3950 5900
+F 0 "SW2" H 3950 6050 50  0000 C CNN
+F 1 "SW_DIP_x01" H 3950 5750 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 3950 5900 50  0001 C CNN
+F 3 "" H 3950 5900 50  0001 C CNN
+	1    3950 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:POT RV1
+U 1 1 5AEA2880
+P 1150 1300
+F 0 "RV1" V 975 1300 50  0000 C CNN
+F 1 "10k" V 1050 1300 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Triwood_RM-065" H 1150 1300 50  0001 C CNN
+F 3 "" H 1150 1300 50  0001 C CNN
+	1    1150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:Conn_01x06_Male J3
+U 1 1 5AEA2FFD
+P 2150 1300
+F 0 "J3" H 2230 1582 50  0000 C CNN
+F 1 "Zasilanie LCD" H 2781 800 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight" H 2150 1300 50  0001 C CNN
+F 3 "" H 2150 1300 50  0001 C CNN
+	1    2150 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L sterownik-rescue:Screw_Terminal_01x02 J10
+U 1 1 5AEF8F22
+P 6000 1400
+F 0 "J10" H 6000 1500 50  0000 C CNN
+F 1 "zasilanie 5-35V" V 6100 1350 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6000 1400 50  0001 C CNN
+F 3 "" H 6000 1400 50  0001 C CNN
+	1    6000 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L sterownik-rescue:Screw_Terminal_01x02 J4
+U 1 1 5AEFA764
+P 2750 7200
+F 0 "J4" H 2750 7300 50  0000 C CNN
+F 1 "START/STOP" H 2750 7000 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 2750 7200 50  0001 C CNN
+F 3 "" H 2750 7200 50  0001 C CNN
+	1    2750 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:Screw_Terminal_01x02 J6
+U 1 1 5AEFA7FD
+P 3800 7200
+F 0 "J6" H 3800 7300 50  0000 C CNN
+F 1 "L/P" H 3800 7000 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 3800 7200 50  0001 C CNN
+F 3 "" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:Screw_Terminal_01x02 J9
+U 1 1 5AEFA882
+P 4850 7200
+F 0 "J9" H 4850 7300 50  0000 C CNN
+F 1 "NOR/MAX" H 4850 7000 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B02B-XH-A_02x2.50mm_Straight" H 4850 7200 50  0001 C CNN
+F 3 "" H 4850 7200 50  0001 C CNN
+	1    4850 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:CP1 C5
+U 1 1 5AEFDAF7
+P 6450 1650
+F 0 "C5" H 6475 1750 50  0000 L CNN
+F 1 "1000uF" H 6475 1550 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D13.0mm_P5.00mm" H 6450 1650 50  0001 C CNN
+F 3 "" H 6450 1650 50  0001 C CNN
+	1    6450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:PWR_FLAG #FLG01
+U 1 1 5AF1FA38
+P 1250 7200
+F 0 "#FLG01" H 1250 7275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1250 7350 50  0000 C CNN
+F 2 "" H 1250 7200 50  0001 C CNN
+F 3 "" H 1250 7200 50  0001 C CNN
+	1    1250 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:PWR_FLAG #FLG02
+U 1 1 5AF1FAAC
+P 1650 7200
+F 0 "#FLG02" H 1650 7275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1650 7350 50  0000 C CNN
+F 2 "" H 1650 7200 50  0001 C CNN
+F 3 "" H 1650 7200 50  0001 C CNN
+	1    1650 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:VAA #PWR03
+U 1 1 5AF1FC60
+P 1250 7400
+F 0 "#PWR03" H 1250 7250 50  0001 C CNN
+F 1 "VAA" H 1250 7550 50  0000 C CNN
+F 2 "" H 1250 7400 50  0001 C CNN
+F 3 "" H 1250 7400 50  0001 C CNN
+	1    1250 7400
+	-1   0    0    1   
+$EndComp
+Text GLabel 700  4050 0    60   Input ~ 0
+5V
+Text GLabel 3000 4150 2    60   Input ~ 0
+ENA
+Text GLabel 3300 1550 0    60   Input ~ 0
+ENA
+Text GLabel 3300 1350 0    60   Input ~ 0
+DIR
+Text GLabel 3000 4250 2    60   Input ~ 0
+DIR
+Text GLabel 3000 4350 2    60   Input ~ 0
+PUL
+Text GLabel 3300 1150 0    60   Input ~ 0
+PUL
+Text GLabel 3050 5650 2    60   Input ~ 0
+RX
+Text GLabel 1750 3300 0    60   Input ~ 0
+RX
+Text GLabel 1750 3400 0    60   Input ~ 0
+TX
+Text GLabel 1750 3600 0    60   Input ~ 0
+5V
+Text GLabel 3050 5750 2    60   Input ~ 0
+TX
+Text GLabel 1750 2250 0    60   Input ~ 0
+5V
+Text GLabel 1050 1100 0    60   Input ~ 0
+5V
+$Comp
+L sterownik-rescue:GNDD #PWR04
+U 1 1 5AF024DD
+P 1150 1550
+F 0 "#PWR04" H 1150 1300 50  0001 C CNN
+F 1 "GNDD" H 1150 1425 50  0000 C CNN
+F 2 "" H 1150 1550 50  0001 C CNN
+F 3 "" H 1150 1550 50  0001 C CNN
+	1    1150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR05
+U 1 1 5AF031FA
+P 1200 2150
+F 0 "#PWR05" H 1200 1900 50  0001 C CNN
+F 1 "GNDD" H 1200 2025 50  0000 C CNN
+F 2 "" H 1200 2150 50  0001 C CNN
+F 3 "" H 1200 2150 50  0001 C CNN
+	1    1200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR06
+U 1 1 5AF042B5
+P 2350 7400
+F 0 "#PWR06" H 2350 7150 50  0001 C CNN
+F 1 "GNDD" H 2350 7275 50  0000 C CNN
+F 2 "" H 2350 7400 50  0001 C CNN
+F 3 "" H 2350 7400 50  0001 C CNN
+	1    2350 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR07
+U 1 1 5AF04350
+P 3350 2700
+F 0 "#PWR07" H 3350 2450 50  0001 C CNN
+F 1 "GNDD" H 3350 2575 50  0000 C CNN
+F 2 "" H 3350 2700 50  0001 C CNN
+F 3 "" H 3350 2700 50  0001 C CNN
+	1    3350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR08
+U 1 1 5AF0455C
+P 4450 7400
+F 0 "#PWR08" H 4450 7150 50  0001 C CNN
+F 1 "GNDD" H 4450 7275 50  0000 C CNN
+F 2 "" H 4450 7400 50  0001 C CNN
+F 3 "" H 4450 7400 50  0001 C CNN
+	1    4450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR09
+U 1 1 5AF04816
+P 3400 7400
+F 0 "#PWR09" H 3400 7150 50  0001 C CNN
+F 1 "GNDD" H 3400 7275 50  0000 C CNN
+F 2 "" H 3400 7400 50  0001 C CNN
+F 3 "" H 3400 7400 50  0001 C CNN
+	1    3400 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR010
+U 1 1 5AF0B83E
+P 1350 3500
+F 0 "#PWR010" H 1350 3250 50  0001 C CNN
+F 1 "GNDD" H 1350 3375 50  0000 C CNN
+F 2 "" H 1350 3500 50  0001 C CNN
+F 3 "" H 1350 3500 50  0001 C CNN
+	1    1350 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1200 0    60   Input ~ 0
+LCD_RS
+Text GLabel 3000 4450 2    60   Input ~ 0
+LCD_RS
+Text GLabel 3000 4550 2    60   Input ~ 0
+LCD_E
+Text GLabel 1900 1000 0    60   Input ~ 0
+LCD_E
+Text GLabel 4500 5500 2    60   Input ~ 0
+RESET
+Text GLabel 1750 3200 0    60   Input ~ 0
+RESET
+Text GLabel 1750 2350 0    60   Input ~ 0
+LCD_D7
+Text GLabel 3100 6350 2    60   Input ~ 0
+LCD_D7
+Text GLabel 1750 2450 0    60   Input ~ 0
+LCD_D6
+Text GLabel 1750 2550 0    60   Input ~ 0
+LCD_D5
+Text GLabel 1750 2650 0    60   Input ~ 0
+LCD_D4
+Text GLabel 3100 6250 2    60   Input ~ 0
+LCD_D6
+Text GLabel 3100 6150 2    60   Input ~ 0
+LCD_D5
+Text GLabel 3100 6050 2    60   Input ~ 0
+LCD_D4
+Text GLabel 4050 5250 2    60   Input ~ 0
+5V
+Text GLabel 3400 2350 0    60   Input ~ 0
+SW
+Text GLabel 3050 5200 2    60   Input ~ 0
+SW
+Text GLabel 3400 2250 0    60   Input ~ 0
+DT
+Text GLabel 3050 5100 2    60   Input ~ 0
+DT
+Text GLabel 3400 2150 0    60   Input ~ 0
+CLK
+Text GLabel 3050 5000 2    60   Input ~ 0
+CLK
+Text GLabel 3050 5950 2    60   Input ~ 0
+START
+Text GLabel 2450 7200 0    60   Input ~ 0
+START
+Text GLabel 3050 5300 2    60   Input ~ 0
+KIERUNEK
+Text GLabel 3500 7200 0    60   Input ~ 0
+KIERUNEK
+Text GLabel 4550 7200 0    60   Input ~ 0
+SZYBKOSC
+Text GLabel 3050 5400 2    60   Input ~ 0
+SZYBKOSC
+$Comp
+L sterownik-rescue:GNDD #PWR011
+U 1 1 5AF20C1A
+P 4400 5900
+F 0 "#PWR011" H 4400 5650 50  0001 C CNN
+F 1 "GNDD" H 4400 5775 50  0000 C CNN
+F 2 "" H 4400 5900 50  0001 C CNN
+F 3 "" H 4400 5900 50  0001 C CNN
+	1    4400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR012
+U 1 1 5AF21260
+P 850 6450
+F 0 "#PWR012" H 850 6200 50  0001 C CNN
+F 1 "GNDD" H 850 6325 50  0000 C CNN
+F 2 "" H 850 6450 50  0001 C CNN
+F 3 "" H 850 6450 50  0001 C CNN
+	1    850  6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR013
+U 1 1 5AF227BB
+P 1650 7400
+F 0 "#PWR013" H 1650 7150 50  0001 C CNN
+F 1 "GNDD" H 1650 7275 50  0000 C CNN
+F 2 "" H 1650 7400 50  0001 C CNN
+F 3 "" H 1650 7400 50  0001 C CNN
+	1    1650 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR014
+U 1 1 5AF23F36
+P 800 5150
+F 0 "#PWR014" H 800 4900 50  0001 C CNN
+F 1 "GNDD" H 800 5025 50  0000 C CNN
+F 2 "" H 800 5150 50  0001 C CNN
+F 3 "" H 800 5150 50  0001 C CNN
+	1    800  5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 7250 2    60   Input ~ 0
+12V
+$Comp
+L sterownik-rescue:GNDD #PWR015
+U 1 1 5AF2897E
+P 5200 4900
+F 0 "#PWR015" H 5200 4650 50  0001 C CNN
+F 1 "GNDD" H 5200 4775 50  0000 C CNN
+F 2 "" H 5200 4900 50  0001 C CNN
+F 3 "" H 5200 4900 50  0001 C CNN
+	1    5200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR016
+U 1 1 5AF2B7D2
+P 6250 2050
+F 0 "#PWR016" H 6250 1800 50  0001 C CNN
+F 1 "GNDD" H 6250 1925 50  0000 C CNN
+F 2 "" H 6250 2050 50  0001 C CNN
+F 3 "" H 6250 2050 50  0001 C CNN
+	1    6250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR017
+U 1 1 5AF2C07D
+P 6450 2050
+F 0 "#PWR017" H 6450 1800 50  0001 C CNN
+F 1 "GNDD" H 6450 1925 50  0000 C CNN
+F 2 "" H 6450 2050 50  0001 C CNN
+F 3 "" H 6450 2050 50  0001 C CNN
+	1    6450 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 3300 2    60   Output ~ 0
+12V
+$Comp
+L sterownik-rescue:Screw_Terminal_01x06 J7
+U 1 1 5AF04740
+P 3800 1250
+F 0 "J7" H 3800 1550 50  0000 C CNN
+F 1 "Sygnał sterownika" H 3485 1677 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-6_P5.08mm" H 3800 1250 50  0001 C CNN
+F 3 "" H 3800 1250 50  0001 C CNN
+	1    3800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:ATMEGA328P-PU U1
+U 1 1 5AE4B9B1
+P 1900 5150
+F 0 "U1" H 1150 6400 50  0000 L BNN
+F 1 "ATMEGA328P-PU" H 2300 3750 50  0000 L BNN
+F 2 "Housings_DIP:DIP-28_W7.62mm_LongPads" H 1900 5150 50  0001 C CIN
+F 3 "" H 1900 5150 50  0001 C CNN
+	1    1900 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3250 950  0    60   Input ~ 0
+5V
+NoConn ~ 2900 4050
+$Comp
+L sterownik-rescue:Screw_Terminal_01x02 J8
+U 1 1 5AF3C899
+P 6300 7200
+F 0 "J8" H 6300 7300 50  0000 C CNN
+F 1 "Zasilanie silników 3,2-35V" H 6024 7472 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6300 7200 50  0001 C CNN
+F 3 "" H 6300 7200 50  0001 C CNN
+	1    6300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR018
+U 1 1 5AF3C89F
+P 5650 7450
+F 0 "#PWR018" H 5650 7200 50  0001 C CNN
+F 1 "GNDD" H 5650 7325 50  0000 C CNN
+F 2 "" H 5650 7450 50  0001 C CNN
+F 3 "" H 5650 7450 50  0001 C CNN
+	1    5650 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 7300 0    60   Input ~ 0
+12V
+NoConn ~ 2900 5850
+$Comp
+L sterownik-rescue:LM2576 U2
+U 1 1 5B138B71
+P 7850 1400
+F 0 "U2" H 7500 1650 60  0000 C CNN
+F 1 "LM2596" H 8100 1650 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-5_Vertical_StaggeredType1" H 7850 1400 60  0001 C CNN
+F 3 "" H 7850 1400 60  0001 C CNN
+F 4 "Texas Instruments" H 7850 1750 60  0001 C CNN "Manufacturer"
+	1    7850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR019
+U 1 1 5B138D75
+P 7750 2100
+F 0 "#PWR019" H 7750 1850 50  0001 C CNN
+F 1 "GNDD" H 7750 1975 50  0000 C CNN
+F 2 "" H 7750 2100 50  0001 C CNN
+F 3 "" H 7750 2100 50  0001 C CNN
+	1    7750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR020
+U 1 1 5B138DE9
+P 7950 2100
+F 0 "#PWR020" H 7950 1850 50  0001 C CNN
+F 1 "GNDD" H 7950 1975 50  0000 C CNN
+F 2 "" H 7950 2100 50  0001 C CNN
+F 3 "" H 7950 2100 50  0001 C CNN
+	1    7950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:D_Schottky D1
+U 1 1 5B13A948
+P 8850 1750
+F 0 "D1" H 8850 1850 50  0000 C CNN
+F 1 "1N5824" H 8850 1650 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-27_P15.24mm_Horizontal" H 8850 1750 50  0001 C CNN
+F 3 "" H 8850 1750 50  0001 C CNN
+	1    8850 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR021
+U 1 1 5B13AAA2
+P 8850 2050
+F 0 "#PWR021" H 8850 1800 50  0001 C CNN
+F 1 "GNDD" H 8850 1925 50  0000 C CNN
+F 2 "" H 8850 2050 50  0001 C CNN
+F 3 "" H 8850 2050 50  0001 C CNN
+	1    8850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:L L1
+U 1 1 5B13AEEB
+P 9150 1500
+F 0 "L1" V 9100 1500 50  0000 C CNN
+F 1 "33uH" V 9225 1500 50  0000 C CNN
+F 2 "Inductors_THT:L_Toroid_Vertical_L19.1mm_W8.1mm_P7.10mm_Bourns_5700" H 9150 1500 50  0001 C CNN
+F 3 "" H 9150 1500 50  0001 C CNN
+	1    9150 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sterownik-rescue:CP1 C8
+U 1 1 5B13B237
+P 9400 1750
+F 0 "C8" H 9425 1850 50  0000 L CNN
+F 1 "220uF" H 9425 1650 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9400 1750 50  0001 C CNN
+F 3 "" H 9400 1750 50  0001 C CNN
+	1    9400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR022
+U 1 1 5B13C2FE
+P 9400 2000
+F 0 "#PWR022" H 9400 1750 50  0001 C CNN
+F 1 "GNDD" H 9400 1875 50  0000 C CNN
+F 2 "" H 9400 2000 50  0001 C CNN
+F 3 "" H 9400 2000 50  0001 C CNN
+	1    9400 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 10300 1500 2    60   Output ~ 0
+5V
+$Comp
+L sterownik-rescue:POT RV2
+U 1 1 5AF049B0
+P 8850 2900
+F 0 "RV2" V 8675 2900 50  0000 C CNN
+F 1 "10k" V 8750 2900 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 8850 2900 50  0001 C CNN
+F 3 "" H 8850 2900 50  0001 C CNN
+	1    8850 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L sterownik-rescue:R R6
+U 1 1 5AF049AA
+P 8350 2550
+F 0 "R6" V 8430 2550 50  0000 C CNN
+F 1 "470R" V 8350 2550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8280 2550 50  0001 C CNN
+F 3 "" H 8350 2550 50  0001 C CNN
+	1    8350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L sterownik-rescue:LM2576 U3
+U 1 1 5B141927
+P 7900 3200
+F 0 "U3" H 7550 3450 60  0000 C CNN
+F 1 "LM2596" H 8150 3450 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-5_Vertical_StaggeredType2" H 7900 3200 60  0001 C CNN
+F 3 "" H 7900 3200 60  0001 C CNN
+F 4 "Texas Instruments" H 7900 3550 60  0001 C CNN "Manufacturer"
+	1    7900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR023
+U 1 1 5B14192D
+P 7800 3900
+F 0 "#PWR023" H 7800 3650 50  0001 C CNN
+F 1 "GNDD" H 7800 3775 50  0000 C CNN
+F 2 "" H 7800 3900 50  0001 C CNN
+F 3 "" H 7800 3900 50  0001 C CNN
+	1    7800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR024
+U 1 1 5B141933
+P 8000 3900
+F 0 "#PWR024" H 8000 3650 50  0001 C CNN
+F 1 "GNDD" H 8000 3775 50  0000 C CNN
+F 2 "" H 8000 3900 50  0001 C CNN
+F 3 "" H 8000 3900 50  0001 C CNN
+	1    8000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:D_Schottky D2
+U 1 1 5B14193B
+P 8650 3550
+F 0 "D2" H 8650 3650 50  0000 C CNN
+F 1 "1N5824" H 8650 3450 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-27_P12.70mm_Horizontal" H 8650 3550 50  0001 C CNN
+F 3 "" H 8650 3550 50  0001 C CNN
+	1    8650 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR025
+U 1 1 5B141941
+P 8650 3900
+F 0 "#PWR025" H 8650 3650 50  0001 C CNN
+F 1 "GNDD" H 8650 3775 50  0000 C CNN
+F 2 "" H 8650 3900 50  0001 C CNN
+F 3 "" H 8650 3900 50  0001 C CNN
+	1    8650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:L L2
+U 1 1 5B141948
+P 8900 3300
+F 0 "L2" V 8850 3300 50  0000 C CNN
+F 1 "68uH" V 8975 3300 50  0000 C CNN
+F 2 "Inductors_THT:L_Toroid_Vertical_L25.4mm_W14.7mm_P12.20mm_Vishay_TJ5_BigPads" H 8900 3300 50  0001 C CNN
+F 3 "" H 8900 3300 50  0001 C CNN
+	1    8900 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sterownik-rescue:CP1 C9
+U 1 1 5B141951
+P 9100 3550
+F 0 "C9" H 9125 3650 50  0000 L CNN
+F 1 "220uF" H 9125 3450 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9100 3550 50  0001 C CNN
+F 3 "" H 9100 3550 50  0001 C CNN
+	1    9100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR026
+U 1 1 5B141957
+P 9400 3900
+F 0 "#PWR026" H 9400 3650 50  0001 C CNN
+F 1 "GNDD" H 9400 3775 50  0000 C CNN
+F 2 "" H 9400 3900 50  0001 C CNN
+F 3 "" H 9400 3900 50  0001 C CNN
+	1    9400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR027
+U 1 1 5B142126
+P 7900 2650
+F 0 "#PWR027" H 7900 2400 50  0001 C CNN
+F 1 "GNDD" H 7900 2525 50  0000 C CNN
+F 2 "" H 7900 2650 50  0001 C CNN
+F 3 "" H 7900 2650 50  0001 C CNN
+	1    7900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:C C7
+U 1 1 5B1425AD
+P 8850 2550
+F 0 "C7" H 8875 2650 50  0000 L CNN
+F 1 "4,7nF" H 8875 2450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 8888 2400 50  0001 C CNN
+F 3 "" H 8850 2550 50  0001 C CNN
+	1    8850 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L sterownik-rescue:C C11
+U 1 1 5B144DE1
+P 9400 3550
+F 0 "C11" H 9425 3650 50  0000 L CNN
+F 1 "0.1uF" H 9425 3450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9438 3400 50  0001 C CNN
+F 3 "" H 9400 3550 50  0001 C CNN
+	1    9400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR028
+U 1 1 5B1456F7
+P 9100 3900
+F 0 "#PWR028" H 9100 3650 50  0001 C CNN
+F 1 "GNDD" H 9100 3775 50  0000 C CNN
+F 2 "" H 9100 3900 50  0001 C CNN
+F 3 "" H 9100 3900 50  0001 C CNN
+	1    9100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR029
+U 1 1 5B145A6B
+P 9750 2000
+F 0 "#PWR029" H 9750 1750 50  0001 C CNN
+F 1 "GNDD" H 9750 1875 50  0000 C CNN
+F 2 "" H 9750 2000 50  0001 C CNN
+F 3 "" H 9750 2000 50  0001 C CNN
+	1    9750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:C C10
+U 1 1 5B145A72
+P 9750 1750
+F 0 "C10" H 9775 1850 50  0000 L CNN
+F 1 "0.1uF" H 9775 1650 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9788 1600 50  0001 C CNN
+F 3 "" H 9750 1750 50  0001 C CNN
+	1    9750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR030
+U 1 1 5B145FE6
+P 6800 2050
+F 0 "#PWR030" H 6800 1800 50  0001 C CNN
+F 1 "GNDD" H 6800 1925 50  0000 C CNN
+F 2 "" H 6800 2050 50  0001 C CNN
+F 3 "" H 6800 2050 50  0001 C CNN
+	1    6800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:C C6
+U 1 1 5B145FED
+P 6800 1650
+F 0 "C6" H 6825 1750 50  0000 L CNN
+F 1 "0.1uF" H 6825 1550 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 6838 1500 50  0001 C CNN
+F 3 "" H 6800 1650 50  0001 C CNN
+	1    6800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:R R1
+U 1 1 5B147964
+P 10100 1700
+F 0 "R1" V 10180 1700 50  0000 C CNN
+F 1 "470R" V 10100 1700 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10030 1700 50  0001 C CNN
+F 3 "" H 10100 1700 50  0001 C CNN
+	1    10100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:LED D3
+U 1 1 5B147C9F
+P 10100 2050
+F 0 "D3" H 10100 2150 50  0000 C CNN
+F 1 "LED" H 10100 1950 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 10100 2050 50  0001 C CNN
+F 3 "" H 10100 2050 50  0001 C CNN
+	1    10100 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR031
+U 1 1 5B147D69
+P 10100 2250
+F 0 "#PWR031" H 10100 2000 50  0001 C CNN
+F 1 "GNDD" H 10100 2125 50  0000 C CNN
+F 2 "" H 10100 2250 50  0001 C CNN
+F 3 "" H 10100 2250 50  0001 C CNN
+	1    10100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:R R2
+U 1 1 5B15914B
+P 9750 3550
+F 0 "R2" V 9830 3550 50  0000 C CNN
+F 1 "10k" V 9750 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9680 3550 50  0001 C CNN
+F 3 "" H 9750 3550 50  0001 C CNN
+	1    9750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:R R3
+U 1 1 5B15942F
+P 9750 3950
+F 0 "R3" V 9830 3950 50  0000 C CNN
+F 1 "2k" V 9750 3950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9680 3950 50  0001 C CNN
+F 3 "" H 9750 3950 50  0001 C CNN
+	1    9750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L sterownik-rescue:GNDD #PWR032
+U 1 1 5B1596B5
+P 9750 4150
+F 0 "#PWR032" H 9750 3900 50  0001 C CNN
+F 1 "GNDD" H 9750 4025 50  0000 C CNN
+F 2 "" H 9750 4150 50  0001 C CNN
+F 3 "" H 9750 4150 50  0001 C CNN
+	1    9750 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 3750 2    60   Output ~ 0
+NAP
+Text GLabel 3050 4900 2    60   Input ~ 0
+NAP
+$Comp
+L sterownik-rescue:Conn_01x06_Male J1
+U 1 1 5AEA49F2
+P 2050 2450
+F 0 "J1" H 2128 2732 50  0000 C CNN
+F 1 "Sygnał LCD" H 2365 1950 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight" H 2050 2450 50  0001 C CNN
+F 3 "" H 2050 2450 50  0001 C CNN
+	1    2050 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3050 5000 2900 5000
+Wire Wire Line
+	3050 5400 2900 5400
+Wire Wire Line
+	3050 5300 2900 5300
+Connection ~ 3500 1050
+Wire Wire Line
+	3500 1050 3600 1050
+Connection ~ 3500 1250
+Wire Wire Line
+	3500 1250 3600 1250
+Wire Wire Line
+	3500 1450 3600 1450
+Wire Wire Line
+	3500 950  3500 1050
+Wire Wire Line
+	3250 950  3500 950 
+Wire Wire Line
+	3400 7300 3400 7400
+Wire Wire Line
+	3600 7300 3400 7300
+Wire Wire Line
+	4450 7300 4450 7400
+Wire Wire Line
+	4650 7300 4450 7300
+Wire Wire Line
+	2350 7300 2350 7400
+Wire Wire Line
+	2550 7300 2350 7300
+Connection ~ 1250 7250
+Wire Wire Line
+	1250 7250 1350 7250
+Wire Wire Line
+	4650 7200 4550 7200
+Wire Wire Line
+	3600 7200 3500 7200
+Wire Wire Line
+	2550 7200 2450 7200
+Wire Wire Line
+	2900 5950 3050 5950
+Wire Wire Line
+	2900 5100 3050 5100
+Wire Wire Line
+	2900 5200 3050 5200
+Wire Wire Line
+	3100 6250 2900 6250
+Wire Wire Line
+	3100 6150 2900 6150
+Wire Wire Line
+	3100 6050 2900 6050
+Wire Wire Line
+	2900 6350 3100 6350
+Wire Wire Line
+	1750 3200 1850 3200
+Wire Wire Line
+	4350 5500 4500 5500
+Wire Wire Line
+	2900 4550 3000 4550
+Wire Wire Line
+	2900 4450 3000 4450
+Connection ~ 1150 1100
+Wire Wire Line
+	1350 1100 1350 1400
+Connection ~ 1450 1500
+Wire Wire Line
+	1450 1100 1450 1500
+Wire Wire Line
+	1850 3500 1350 3500
+Connection ~ 1150 1500
+Wire Wire Line
+	1150 1500 1450 1500
+Wire Wire Line
+	1150 1450 1150 1500
+Wire Wire Line
+	1150 1100 1150 1150
+Wire Wire Line
+	1050 1100 1150 1100
+Wire Wire Line
+	2900 5750 3050 5750
+Wire Wire Line
+	1750 3600 1850 3600
+Wire Wire Line
+	1850 3400 1750 3400
+Wire Wire Line
+	1750 3300 1850 3300
+Wire Wire Line
+	2900 4350 3000 4350
+Wire Wire Line
+	2900 4250 3000 4250
+Wire Wire Line
+	2900 4150 3000 4150
+Wire Wire Line
+	1650 7200 1650 7400
+Wire Wire Line
+	1250 7200 1250 7250
+Wire Wire Line
+	3950 5250 4050 5250
+Connection ~ 6450 1300
+Wire Wire Line
+	6450 1500 6450 1300
+Wire Wire Line
+	6450 1800 6450 2050
+Wire Wire Line
+	6200 1300 6450 1300
+Wire Wire Line
+	3300 1550 3600 1550
+Wire Wire Line
+	3300 1350 3600 1350
+Wire Wire Line
+	3300 1150 3600 1150
+Wire Wire Line
+	2900 5650 3050 5650
+Wire Wire Line
+	4250 5900 4400 5900
+Connection ~ 3650 5500
+Wire Wire Line
+	3650 5250 3650 5500
+Wire Wire Line
+	2900 5500 3650 5500
+Connection ~ 4950 4800
+Wire Wire Line
+	5200 4800 4950 4800
+Wire Wire Line
+	5200 4900 5200 4800
+Wire Wire Line
+	800  4950 800  5150
+Wire Wire Line
+	4950 4950 4800 4950
+Wire Wire Line
+	4950 4650 4950 4800
+Wire Wire Line
+	4800 4650 4950 4650
+Connection ~ 4250 4650
+Connection ~ 4250 4950
+Wire Wire Line
+	4050 4950 4250 4950
+Wire Wire Line
+	4050 4750 4050 4950
+Wire Wire Line
+	2900 4750 4050 4750
+Wire Wire Line
+	2900 4650 4250 4650
+Connection ~ 800  4050
+Wire Wire Line
+	800  4050 800  4350
+Wire Wire Line
+	700  4050 800  4050
+Connection ~ 850  6350
+Wire Wire Line
+	1000 6250 850  6250
+Wire Wire Line
+	850  6250 850  6350
+Wire Wire Line
+	1000 6350 850  6350
+Wire Wire Line
+	800  4350 1000 4350
+Wire Wire Line
+	800  4650 1000 4650
+Wire Wire Line
+	7000 1300 7000 3100
+Connection ~ 7000 1300
+Wire Wire Line
+	7750 1950 7750 2100
+Wire Wire Line
+	7950 1950 7950 2100
+Wire Wire Line
+	8850 1900 8850 2050
+Wire Wire Line
+	8550 1500 8850 1500
+Connection ~ 8850 1500
+Wire Wire Line
+	8550 1300 9400 1300
+Wire Wire Line
+	9300 1500 9400 1500
+Wire Wire Line
+	9400 1300 9400 1500
+Connection ~ 9400 1500
+Wire Wire Line
+	8850 1600 8850 1500
+Wire Wire Line
+	9400 1900 9400 2000
+Wire Wire Line
+	7800 3750 7800 3900
+Wire Wire Line
+	8000 3750 8000 3900
+Wire Wire Line
+	8650 3700 8650 3900
+Wire Wire Line
+	8600 3300 8650 3300
+Connection ~ 8650 3300
+Wire Wire Line
+	9050 3300 9100 3300
+Wire Wire Line
+	9100 2550 9100 2900
+Connection ~ 9100 3300
+Wire Wire Line
+	8650 3400 8650 3300
+Wire Wire Line
+	9400 3700 9400 3900
+Wire Wire Line
+	8650 3100 8600 3100
+Wire Wire Line
+	8650 2550 8650 2900
+Wire Wire Line
+	8650 2900 8700 2900
+Connection ~ 8650 2900
+Wire Wire Line
+	8850 3050 9100 3050
+Wire Wire Line
+	7900 2550 7900 2650
+Wire Wire Line
+	8500 2550 8650 2550
+Wire Wire Line
+	8200 2550 7900 2550
+Connection ~ 8650 2550
+Wire Wire Line
+	9100 2550 9000 2550
+Connection ~ 9100 3050
+Wire Wire Line
+	9000 2900 9100 2900
+Connection ~ 9100 2900
+Wire Wire Line
+	7000 3100 7200 3100
+Wire Wire Line
+	6200 1400 6250 1400
+Wire Wire Line
+	6250 1400 6250 2050
+Wire Wire Line
+	6000 7300 6100 7300
+Wire Wire Line
+	5650 7200 5650 7450
+Wire Wire Line
+	6100 7200 5650 7200
+Wire Wire Line
+	9400 3300 9400 3400
+Connection ~ 9400 3300
+Wire Wire Line
+	9100 3700 9100 3900
+Wire Wire Line
+	9750 1900 9750 2000
+Wire Wire Line
+	9750 1600 9750 1500
+Connection ~ 9750 1500
+Wire Wire Line
+	6800 1800 6800 2050
+Wire Wire Line
+	6800 1500 6800 1300
+Connection ~ 6800 1300
+Wire Wire Line
+	10100 1550 10100 1500
+Connection ~ 10100 1500
+Wire Wire Line
+	10100 1850 10100 1900
+Wire Wire Line
+	10100 2200 10100 2250
+Wire Wire Line
+	9750 3400 9750 3300
+Connection ~ 9750 3300
+Wire Wire Line
+	9750 3700 9750 3750
+Wire Wire Line
+	9750 4150 9750 4100
+Wire Wire Line
+	9750 3750 9950 3750
+Connection ~ 9750 3750
+Wire Wire Line
+	2900 4900 3050 4900
+Wire Wire Line
+	1750 2650 1850 2650
+Wire Wire Line
+	1750 2550 1850 2550
+Wire Wire Line
+	1750 2450 1850 2450
+Wire Wire Line
+	1750 2350 1850 2350
+Wire Wire Line
+	1750 2250 1850 2250
+Wire Wire Line
+	1200 2150 1850 2150
+Wire Wire Line
+	1350 1400 1950 1400
+Wire Wire Line
+	1950 1300 1300 1300
+Wire Wire Line
+	1900 1200 1950 1200
+Wire Wire Line
+	1450 1100 1950 1100
+Wire Wire Line
+	1900 1000 1950 1000
+Wire Wire Line
+	3500 2350 3400 2350
+Wire Wire Line
+	3500 2250 3400 2250
+Wire Wire Line
+	3500 2150 3400 2150
+Wire Wire Line
+	3500 2650 3350 2650
+Wire Wire Line
+	3350 2450 3350 2550
+Wire Wire Line
+	3350 2550 3500 2550
+Connection ~ 3350 2650
+Wire Wire Line
+	3350 2450 3500 2450
+Connection ~ 3350 2550
+Wire Wire Line
+	3500 1050 3500 1250
+Wire Wire Line
+	3500 1250 3500 1450
+Wire Wire Line
+	1250 7250 1250 7400
+Wire Wire Line
+	1150 1100 1350 1100
+Wire Wire Line
+	1450 1500 1950 1500
+Wire Wire Line
+	1150 1500 1150 1550
+Wire Wire Line
+	6450 1300 6800 1300
+Wire Wire Line
+	3650 5500 3650 5900
+Wire Wire Line
+	3650 5500 4050 5500
+Wire Wire Line
+	4950 4800 4950 4950
+Wire Wire Line
+	4250 4650 4500 4650
+Wire Wire Line
+	4250 4950 4500 4950
+Wire Wire Line
+	800  4050 1000 4050
+Wire Wire Line
+	850  6350 850  6450
+Wire Wire Line
+	7000 1300 7150 1300
+Wire Wire Line
+	8850 1500 9000 1500
+Wire Wire Line
+	9400 1500 9750 1500
+Wire Wire Line
+	9400 1500 9400 1600
+Wire Wire Line
+	8650 3300 8750 3300
+Wire Wire Line
+	9100 3300 9400 3300
+Wire Wire Line
+	9100 3300 9100 3400
+Wire Wire Line
+	8650 2900 8650 3100
+Wire Wire Line
+	8650 2550 8700 2550
+Wire Wire Line
+	9100 3050 9100 3300
+Wire Wire Line
+	9100 2900 9100 3050
+Wire Wire Line
+	9400 3300 9750 3300
+Wire Wire Line
+	9750 1500 10100 1500
+Wire Wire Line
+	6800 1300 7000 1300
+Wire Wire Line
+	10100 1500 10300 1500
+Wire Wire Line
+	9750 3300 10150 3300
+Wire Wire Line
+	9750 3750 9750 3800
+Wire Wire Line
+	3350 2650 3350 2700
+Wire Wire Line
+	3350 2550 3350 2650
+$Comp
+L sterownik-rescue:Conn_01x06_Male J5
+U 1 1 5AEA5E38
+P 3700 2450
+F 0 "J5" H 3700 2750 50  0000 C CNN
+F 1 "Impulsator" H 3936 1982 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B06B-XH-A_06x2.50mm_Straight" H 3700 2450 50  0001 C CNN
+F 3 "" H 3700 2450 50  0001 C CNN
+	1    3700 2450
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

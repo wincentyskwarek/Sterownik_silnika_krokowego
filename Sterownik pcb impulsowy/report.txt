@@ -1,0 +1,78 @@
+Informacja: Tworznie kopii zapasowej "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\sym-lib-table" w pliku "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\rescue-backup\sym-lib-table-2022-11-01-11-12-28".
+Informacja: Tworznie kopii zapasowej "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\sterownik.sch" w pliku "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\rescue-backup\sterownik-2022-11-01-11-12-28.sch".
+Informacja: Tworznie kopii zapasowej "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\sterownik.pro" w pliku "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\rescue-backup\sterownik-2022-11-01-11-12-28.pro".
+Informacja: Tworznie kopii zapasowej "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\sterownik-cache.lib" w pliku "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\rescue-backup\sterownik-cache-2022-11-01-11-12-28.lib".
+Informacja: Tworznie kopii zapasowej "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\sterownik-rescue.lib" w pliku "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\rescue-backup\sterownik-rescue-2022-11-01-11-12-28.lib".
+Informacja: Tworznie kopii zapasowej "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\sterownik-rescue.dcm" w pliku "E:\Projekty\Sterownik_silnika_krokowego\sterownik_pcb_impulsowy\rescue-backup\sterownik-rescue-2022-11-01-11-12-28.dcm".
+Informacja: Dodaję bibliotekę "sterownik-rescue", plik "${KIPRJMOD}/sterownik-rescue.lib" do tabeli bibliotek projektu.
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Crystal" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Conn_01x05_Male" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "R" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "SW_DIP_x01" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "POT" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Conn_01x06_Male" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Conn_01x06_Male" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Screw_Terminal_01x02" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Screw_Terminal_01x02" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Screw_Terminal_01x02" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Screw_Terminal_01x02" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "CP1" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "PWR_FLAG" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "PWR_FLAG" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "VAA" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Screw_Terminal_01x06" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "ATMEGA328P-PU" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Screw_Terminal_01x02" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "LM2576" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "D_Schottky" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "L" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "CP1" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "POT" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "R" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "LM2576" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "D_Schottky" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "L" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "CP1" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "C" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "R" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "LED" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "R" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "R" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "GNDD" zmapowany do biblioteki symboli "sterownik-rescue".
+Symbol "Conn_01x06_Male" zmapowany do biblioteki symboli "sterownik-rescue".
+Informacja: Mapowanie symboli według tabeli bibliotek zakończone!
